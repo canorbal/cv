@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Ushakov Roman} % Your name
+\address{Moscow, Russia} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{+7 (915) 145 04 25 \\ ushakov.ra@phystech.edu \\  \href{https://www.linkedin.com/in/roman-ushakov-067b4712a/}{linkedin} \\  \href{https://github.com/canorbal}{github}  }  % Your phone number and email
+
+\begin{document}
+ 
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{OBJECTIVE}
+
+% {Recently graduated, multidisciplinary Engineer with excellent problem solving abilities and process-thinking skill seeks hands on experience within a company that embraces creativity and innovation.Through my studies, I have gained extensive knowledge of production and manufacturing engineering, product design, among many other components of  Mechanical Engineering.Effective communicator who builds positive, cohesive relationship with all level of staff, eager to put my extensive studies to practical, applied use.}
+
+
+% \end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Moscow Institute of Physics and Technology} \hfill {August 2015 - May 2021}
+\\
+Applied Mathematics and Physics
+\\
+GPA: 4.73/5.00  
+
+{\bf Yandex Data School} \hfill {September 2017 - May 2019}
+\\
+Big Data department
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming skills & python, C++ \\
+ML & sklearn, vowpal wabbit, xgboost, lightgbm, catboost  \\ 
+Data workflow & numpy, pandas, sql \\
+Deep learning & pytorch, tensorflow, keras \\  
+CI/CD & Travis CI \\
+Extra &  bash, latex, git, docker  \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work experience}
+
+\begin{rSubsection}{Mail.ru Group, machine learning engineer}{October 2018 --- present} {} {}
+\item Working on the search ranking.
+\end{rSubsection}
+
+\begin{rSubsection}{Yandex, intern in computer vision research group}{summer, 2018} {} {} 
+\item Developed image-based localization mechanism for self-driving cars.
+\end{rSubsection}
+
+\begin{rSubsection}{Institute for Information Transmission Problems, research intern}{September 2017 --- May 2018} {} {}
+\item Experimented with community detection algorithms in random graphs. 
+\item Our \href{https://arxiv.org/abs/1707.01350}{\underline{paper}} was accepted to Complex Networks 2017 conference.
+\end{rSubsection}
+
+\begin{rSubsection}{Kaspersky Lab, software engineering intern}{summer, 2017} {} {}
+\item Developed cyber-attack detection algorithms, proving the concept for LSTM-based approach for anomaly \mbox{detection}.
+
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Extra Activities} \itemsep -1pt {}  
+
+\item \href{https://www.kaggle.com/c/home-credit-default-risk}{\underline{Home Credit Default Risk}} Kaggle competition --- Top 4\% \hfill August 2018
+
+\item \href{https://www.kaggle.com/c/competition-1-yandex-shad-spring-2018}{\underline{Yandex school of data analysis Kaggle inclass competition}} --- Top 3\% \hfill March 2018
+
+\item \href{https://vc.ru/flood/33922-funhack-sobral-razrabotchikov-potehi-radi}{\underline{FunHack}} --- 1st place. Face transferring on video via using DeepFakes. \hfill February 2018
+
+\item \href{https://www.kaggle.com/c/dsg17-online-phase}{\underline{Data Science Game 2017}, online phase} --- Top 14\% \hfill May 2017
+
+\item \href{https://mobility.abbyy.com/hack/}{\underline{ABBYY hackathon}} --- 1st place. Lawyer Telegram bot \hfill October 2017
+
+\item \href{http://miptstream.ru/2017/04/14/mipt-hackathon-kaspersky}{\underline{Kaspersky Lab hackathon}} --- 1st place. The best time series anomaly detection algorithm \hfill April 2017
+ 
+
+\end{rSection}
+
+\end{document}
